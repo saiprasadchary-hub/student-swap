@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy & Sell - Student Swap</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">Student Swap</div>
+</header>
+<h2>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="register.html">Register</a>
+    <a href="product-listing.html">Buy & Sell</a>
+</nav>
+</h2>
+<main>
+    <h2>Buy or Sell Products</h2>
+
+    <div class="product-form">
+        <h3>Sell Your Item</h3>
+        <form action="#">
+            <input type="text" placeholder="Product Name" required>
+            <input type="file" accept="image/*" required>
+            <textarea placeholder="Product Description" required></textarea>
+            <select required>
+                <option value="book">Books</option>
+                <option value="gadget">Electronics</option>
+                <option value="bike">Bikes</option>
+                <option value="stationery">Stationery</option>
+            </select>
+            <input type="number" placeholder="Price (₹)" required>
+            <button type="submit">Post Item</button>
+        </form>
+    </div>
+
+    <div class="featured-listings">
+        <!-- Product Cards will go here, just like the Home page -->
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Student Swap. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
